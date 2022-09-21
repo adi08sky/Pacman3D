@@ -41,7 +41,7 @@ public class PlayerManager : MonoBehaviour
         List<Coin> coins = FindObjectsOfType<Coin>().ToList();
         _numberOfCoins = coins.Count;
 
-        _level = PlayerPrefs.GetInt("_level");
+        _level = PlayerPrefs.GetInt("Level");
     }
     private void FixedUpdate()
     {
@@ -83,7 +83,7 @@ public class PlayerManager : MonoBehaviour
 
     public void ContinueLevel()
     {
-        PlayerPrefs.SetInt("_level", 2);
+        PlayerPrefs.SetInt("Level", 2);
         SceneManager.LoadScene("Playground");
     }
 
