@@ -1,0 +1,15 @@
+# Pacman3D
+Aplikacja treningowa Unity
+
+Założenia:
+1. Adaptacja kultowego PacMan'a w 3D.
+2. Przeciwnicy, którzy próbują nas złapać, omijając przeszkody (dowolna ilość przeciwników oraz ich miejsca spawnu, z kolejnymi poziomami ich ilość powinna się
+zwiększać).
+3. Gracz posiada X zapasowych żyć, wyświetlonych w UI. Złapanie gracza powoduje
+odjęcie życia i reset na pozycję startową.
+4. Poziom kończy się wygraną w momencie zebrania wszystkich “pestek” rozłożonych na mapie, po czym ładowany jest następny poziom. Gra kończy się przegraną w momencie
+złapania przez przeciwnika, gdy nie ma już zapasowych żyć, albo przejściem wszystkich poziomów. 
+5. Obszary, w które może wejść tylko gracz, a przeciwnik już nie.
+6. 2 typy drzwi: jeden tylko otwierający się przed graczem, oraz drugi otwierający się przed graczem i przeciwnikiem.
+7. Teleporty przenoszące gracza z jednego miejsca w drugie
+8. Wygranie poziomu ładuje następny poziom z tą samą mapą, ale przeciwnicy są sprytniejsi (np. szybsi) i pojawiają się w innych miejscach.
