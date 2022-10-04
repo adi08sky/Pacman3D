@@ -44,6 +44,14 @@ public class GameManager : MonoBehaviour
         SpawnCoins();
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Quit();
+        }
+    }
+
     void SpawnEnemy()
     {
         _enemies = new GameObject[_numberOfEnemies];

@@ -22,6 +22,11 @@ public class MenuManager : MonoBehaviour
         _numberOfEnemiesText.text = _numberOfEnemiesSlider.value.ToString();
         _numberOfCoinsText.text = _numberOfCoinsSlider.value.ToString();
         _enemiesMultiplierText.text = _enemiesMultiplierSlider.value.ToString();
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     public void OnStartButton()
