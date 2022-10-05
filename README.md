@@ -14,6 +14,9 @@ złapania przez przeciwnika, gdy nie ma już zapasowych żyć, albo przejściem 
 7. Teleporty przenoszące gracza z jednego miejsca w drugie
 8. Wygranie poziomu ładuje następny poziom z tą samą mapą, ale przeciwnicy są sprytniejsi (np. szybsi) i pojawiają się w innych miejscach.
 
+Obecny build aplikacji dostępny do pobrania:
+https://drive.google.com/file/d/1Py7_fQ5OO16efbMM4KFNIo2vPgIYGPMH/view?usp=sharing
+
 ![image](https://user-images.githubusercontent.com/46719355/193830046-5d6f9b82-efb7-4c60-b50f-051117eb3830.png)
 ![image](https://user-images.githubusercontent.com/46719355/193830187-6127104b-b6d7-413d-8c71-60eb3757c301.png)
 ![image](https://user-images.githubusercontent.com/46719355/193830718-93e89772-9c91-41f4-9501-ff0e1dbd6ef4.png)
